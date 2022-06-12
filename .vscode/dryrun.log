@@ -1,0 +1,8 @@
+make.exe: Entering directory 'd:/GUC/Semester-8/SALSA-with-Peephole-LSTM'
+PYTHONPATH= python dataset/feature_extraction.py --data_config=./dataset/configs/tnsse2021_feature_config.yml \
+--feature_type=linspeciv
+make.exe: Leaving directory 'd:/GUC/Semester-8/SALSA-with-Peephole-LSTM'
+ 
+process_begin: CreateProcess(NULL, pwd, ...) failed.
+make.exe: Makefile:7: pipe: No such file or directory
+

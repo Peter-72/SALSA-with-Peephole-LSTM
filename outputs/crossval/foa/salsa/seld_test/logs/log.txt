@@ -1,0 +1,206 @@
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-11-03-24-33
+experiments_utils.py[line:186] INFO Log file is created in ./outputs\crossval\foa\salsa\seld_test\logs.
+experiments_utils.py[line:52] INFO Write yaml config file to ./outputs\crossval\foa\salsa\seld_test\configs
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split train is 400
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-11-03-38-35
+experiments_utils.py[line:186] INFO Log file is created in ./outputs/crossval/foa/salsa/seld_test/logs.
+experiments_utils.py[line:52] INFO Write yaml config file to ./outputs/crossval/foa/salsa/seld_test/configs
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split train is 400
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-11-03-39-47
+experiments_utils.py[line:186] INFO Log file is created in ./outputs/crossval/foa/salsa/seld_test/logs.
+experiments_utils.py[line:52] INFO Write yaml config file to ./outputs/crossval/foa/salsa/seld_test/configs
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split train is 400
+database.py[line:145] INFO Number of files in split val is 100
+datamodule.py[line:123] INFO In datamodule: val batch size = 1
+datamodule.py[line:125] INFO train dataset size: 42000 - val dataset size: 100
+train.py[line:59] INFO Finish configuring learning rate scheduler.
+builder_utils.py[line:62] INFO Finish loading model PannResNet22.
+decoders.py[line:121] INFO Map decoder type: bipeepholelstm
+builder_utils.py[line:62] INFO Finish loading model SeldDecoder.
+interfaces.py[line:59] INFO Initialize lightning model.
+learning_utils.py[line:85] INFO Start initiating trainer!
+learning_utils.py[line:88] INFO Finish initiating trainer.
+learning_utils.py[line:91] INFO Start training...
+seld_models.py[line:108] INFO Epoch 0 - Validation - SELD: 2.1768 - SED ER: 7.1287 - F1: 0.0000 - DOA LE: 82.7443 - LR: 0.8812
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-11-04-09-14
+experiments_utils.py[line:186] INFO Log file is created in ./outputs/crossval/foa/salsa/seld_test/logs.
+experiments_utils.py[line:52] INFO Write yaml config file to ./outputs/crossval/foa/salsa/seld_test/configs
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split train is 400
+database.py[line:145] INFO Number of files in split val is 100
+datamodule.py[line:123] INFO In datamodule: val batch size = 1
+datamodule.py[line:125] INFO train dataset size: 42000 - val dataset size: 100
+train.py[line:59] INFO Finish configuring learning rate scheduler.
+builder_utils.py[line:62] INFO Finish loading model PannResNet22.
+decoders.py[line:121] INFO Map decoder type: bipeepholelstm
+builder_utils.py[line:62] INFO Finish loading model SeldDecoder.
+interfaces.py[line:59] INFO Initialize lightning model.
+learning_utils.py[line:85] INFO Start initiating trainer!
+learning_utils.py[line:88] INFO Finish initiating trainer.
+learning_utils.py[line:91] INFO Start training...
+seld_models.py[line:108] INFO Epoch 0 - Validation - SELD: 2.1768 - SED ER: 7.1287 - F1: 0.0000 - DOA LE: 82.7443 - LR: 0.8812
+seld_models.py[line:108] INFO Epoch 0 - Validation - SELD: 0.7366 - SED ER: 0.8996 - F1: 0.0731 - DOA LE: 54.4968 - LR: 0.1829
+seld_models.py[line:108] INFO Epoch 1 - Validation - SELD: 0.6858 - SED ER: 0.9049 - F1: 0.1349 - DOA LE: 38.4434 - LR: 0.2403
+seld_models.py[line:108] INFO Epoch 2 - Validation - SELD: 0.6790 - SED ER: 0.9299 - F1: 0.1457 - DOA LE: 39.2738 - LR: 0.2865
+seld_models.py[line:108] INFO Epoch 3 - Validation - SELD: 0.6518 - SED ER: 0.9403 - F1: 0.1831 - DOA LE: 38.7198 - LR: 0.3651
+seld_models.py[line:108] INFO Epoch 4 - Validation - SELD: 0.5978 - SED ER: 0.8669 - F1: 0.2445 - DOA LE: 32.5158 - LR: 0.4120
+seld_models.py[line:108] INFO Epoch 5 - Validation - SELD: 0.5677 - SED ER: 0.8855 - F1: 0.2926 - DOA LE: 26.8159 - LR: 0.4711
+seld_models.py[line:108] INFO Epoch 6 - Validation - SELD: 0.5586 - SED ER: 0.8865 - F1: 0.3067 - DOA LE: 26.3415 - LR: 0.4917
+seld_models.py[line:108] INFO Epoch 7 - Validation - SELD: 0.5643 - SED ER: 0.8927 - F1: 0.3007 - DOA LE: 28.0208 - LR: 0.4906
+seld_models.py[line:108] INFO Epoch 8 - Validation - SELD: 0.5401 - SED ER: 0.8887 - F1: 0.3349 - DOA LE: 26.2463 - LR: 0.5392
+seld_models.py[line:108] INFO Epoch 9 - Validation - SELD: 0.5082 - SED ER: 0.8424 - F1: 0.3712 - DOA LE: 24.8790 - LR: 0.5765
+seld_models.py[line:108] INFO Epoch 10 - Validation - SELD: 0.5041 - SED ER: 0.8579 - F1: 0.3785 - DOA LE: 25.7092 - LR: 0.6059
+seld_models.py[line:108] INFO Epoch 11 - Validation - SELD: 0.4971 - SED ER: 0.8469 - F1: 0.3856 - DOA LE: 23.9951 - LR: 0.6063
+seld_models.py[line:108] INFO Epoch 12 - Validation - SELD: 0.4767 - SED ER: 0.8120 - F1: 0.4131 - DOA LE: 23.8838 - LR: 0.6247
+seld_models.py[line:108] INFO Epoch 13 - Validation - SELD: 0.4833 - SED ER: 0.8241 - F1: 0.4039 - DOA LE: 24.3625 - LR: 0.6222
+seld_models.py[line:108] INFO Epoch 14 - Validation - SELD: 0.4731 - SED ER: 0.7923 - F1: 0.4139 - DOA LE: 23.8346 - LR: 0.6182
+seld_models.py[line:108] INFO Epoch 15 - Validation - SELD: 0.4482 - SED ER: 0.7736 - F1: 0.4478 - DOA LE: 23.2236 - LR: 0.6621
+seld_models.py[line:108] INFO Epoch 16 - Validation - SELD: 0.4425 - SED ER: 0.7754 - F1: 0.4557 - DOA LE: 23.2219 - LR: 0.6785
+seld_models.py[line:108] INFO Epoch 17 - Validation - SELD: 0.4377 - SED ER: 0.7266 - F1: 0.4560 - DOA LE: 23.1751 - LR: 0.6484
+seld_models.py[line:108] INFO Epoch 18 - Validation - SELD: 0.4180 - SED ER: 0.7098 - F1: 0.4843 - DOA LE: 22.4211 - LR: 0.6779
+seld_models.py[line:108] INFO Epoch 19 - Validation - SELD: 0.4114 - SED ER: 0.7037 - F1: 0.4919 - DOA LE: 22.2194 - LR: 0.6898
+seld_models.py[line:108] INFO Epoch 20 - Validation - SELD: 0.4373 - SED ER: 0.7382 - F1: 0.4623 - DOA LE: 22.6458 - LR: 0.6524
+seld_models.py[line:108] INFO Epoch 21 - Validation - SELD: 0.4098 - SED ER: 0.6824 - F1: 0.4950 - DOA LE: 21.7242 - LR: 0.6691
+seld_models.py[line:108] INFO Epoch 22 - Validation - SELD: 0.4025 - SED ER: 0.6911 - F1: 0.5100 - DOA LE: 22.8270 - LR: 0.6979
+seld_models.py[line:108] INFO Epoch 23 - Validation - SELD: 0.4088 - SED ER: 0.6758 - F1: 0.5024 - DOA LE: 20.1286 - LR: 0.6499
+seld_models.py[line:108] INFO Epoch 24 - Validation - SELD: 0.3955 - SED ER: 0.6737 - F1: 0.5209 - DOA LE: 20.4972 - LR: 0.6847
+seld_models.py[line:108] INFO Epoch 25 - Validation - SELD: 0.3765 - SED ER: 0.6445 - F1: 0.5482 - DOA LE: 20.1477 - LR: 0.7023
+seld_models.py[line:108] INFO Epoch 26 - Validation - SELD: 0.3776 - SED ER: 0.6283 - F1: 0.5493 - DOA LE: 19.2632 - LR: 0.6758
+seld_models.py[line:108] INFO Epoch 27 - Validation - SELD: 0.3995 - SED ER: 0.6755 - F1: 0.5239 - DOA LE: 20.7007 - LR: 0.6687
+seld_models.py[line:108] INFO Epoch 28 - Validation - SELD: 0.3701 - SED ER: 0.6181 - F1: 0.5602 - DOA LE: 19.0865 - LR: 0.6836
+seld_models.py[line:108] INFO Epoch 29 - Validation - SELD: 0.3737 - SED ER: 0.6212 - F1: 0.5535 - DOA LE: 19.1877 - LR: 0.6795
+seld_models.py[line:108] INFO Epoch 30 - Validation - SELD: 0.3547 - SED ER: 0.5760 - F1: 0.5804 - DOA LE: 18.9895 - LR: 0.6823
+seld_models.py[line:108] INFO Epoch 31 - Validation - SELD: 0.3532 - SED ER: 0.5746 - F1: 0.5839 - DOA LE: 17.9751 - LR: 0.6779
+seld_models.py[line:108] INFO Epoch 32 - Validation - SELD: 0.3663 - SED ER: 0.6122 - F1: 0.5669 - DOA LE: 19.0771 - LR: 0.6862
+seld_models.py[line:108] INFO Epoch 33 - Validation - SELD: 0.3503 - SED ER: 0.5649 - F1: 0.5892 - DOA LE: 17.1188 - LR: 0.6696
+seld_models.py[line:108] INFO Epoch 34 - Validation - SELD: 0.3661 - SED ER: 0.6213 - F1: 0.5662 - DOA LE: 19.1584 - LR: 0.6970
+seld_models.py[line:108] INFO Epoch 35 - Validation - SELD: 0.3478 - SED ER: 0.5769 - F1: 0.5907 - DOA LE: 18.4217 - LR: 0.6974
+seld_models.py[line:108] INFO Epoch 36 - Validation - SELD: 0.3342 - SED ER: 0.5424 - F1: 0.6103 - DOA LE: 17.3915 - LR: 0.6919
+seld_models.py[line:108] INFO Epoch 37 - Validation - SELD: 0.3315 - SED ER: 0.5400 - F1: 0.6133 - DOA LE: 17.7314 - LR: 0.6993
+seld_models.py[line:108] INFO Epoch 38 - Validation - SELD: 0.3289 - SED ER: 0.5318 - F1: 0.6197 - DOA LE: 16.4698 - LR: 0.6880
+seld_models.py[line:108] INFO Epoch 39 - Validation - SELD: 0.3331 - SED ER: 0.5488 - F1: 0.6118 - DOA LE: 17.0546 - LR: 0.6992
+seld_models.py[line:108] INFO Epoch 40 - Validation - SELD: 0.3335 - SED ER: 0.5527 - F1: 0.6135 - DOA LE: 16.4654 - LR: 0.6966
+seld_models.py[line:108] INFO Epoch 41 - Validation - SELD: 0.3260 - SED ER: 0.5239 - F1: 0.6203 - DOA LE: 17.0959 - LR: 0.6946
+seld_models.py[line:108] INFO Epoch 42 - Validation - SELD: 0.3226 - SED ER: 0.5286 - F1: 0.6269 - DOA LE: 16.8168 - LR: 0.7046
+seld_models.py[line:108] INFO Epoch 43 - Validation - SELD: 0.3313 - SED ER: 0.5341 - F1: 0.6148 - DOA LE: 16.5862 - LR: 0.6863
+seld_models.py[line:108] INFO Epoch 44 - Validation - SELD: 0.3242 - SED ER: 0.5283 - F1: 0.6250 - DOA LE: 16.6174 - LR: 0.6986
+seld_models.py[line:108] INFO Epoch 45 - Validation - SELD: 0.3282 - SED ER: 0.5284 - F1: 0.6192 - DOA LE: 16.3458 - LR: 0.6872
+seld_models.py[line:108] INFO Epoch 46 - Validation - SELD: 0.3225 - SED ER: 0.5190 - F1: 0.6263 - DOA LE: 16.1706 - LR: 0.6926
+seld_models.py[line:108] INFO Epoch 47 - Validation - SELD: 0.3301 - SED ER: 0.5379 - F1: 0.6173 - DOA LE: 16.2714 - LR: 0.6906
+seld_models.py[line:108] INFO Epoch 48 - Validation - SELD: 0.3207 - SED ER: 0.5192 - F1: 0.6280 - DOA LE: 16.5761 - LR: 0.7005
+seld_models.py[line:108] INFO Epoch 49 - Validation - SELD: 0.3200 - SED ER: 0.5206 - F1: 0.6297 - DOA LE: 16.2695 - LR: 0.7011
+learning_utils.py[line:95] INFO Finish training!
+learning_utils.py[line:98] INFO Total training time: 02:20:05 s
+train.py[line:106] INFO Best model checkpoint: /mnt/d/GUC/Semester-8/SALSA/outputs/crossval/foa/salsa/seld_test/models/best/epoch=049-valSeld=0.320-valER=0.521-valF1=0.630-valLE=16.270-valLR=0.701.ckpt
+database.py[line:145] INFO Number of files in split test is 100
+datamodule.py[line:132] INFO Setup test stage in data module
+datamodule.py[line:133] INFO In datamodule: test batch size = 1
+learning_utils.py[line:91] INFO Start training...
+learning_utils.py[line:101] INFO Start testing ...
+seld_models.py[line:122] INFO Number of test files: 100
+seld_models.py[line:135] INFO Epoch 49 - Test - SELD: 0.3331 - SED ER: 0.5381 - F1: 0.6143 - DOA LE: 15.4216 - LR: 0.6773
+learning_utils.py[line:105] INFO Finish testing!
+learning_utils.py[line:108] INFO Total testing time: 00:01:39 s
+learning_utils.py[line:95] INFO Finish training!
+learning_utils.py[line:98] INFO Total training time: 00:01:45 s
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-12-06-59-38
+experiments_utils.py[line:186] INFO Log file is created in ./outputs/crossval/foa/salsa/seld_test/logs.
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+inference.py[line:46] INFO Inference for split : val in split meta original
+inference.py[line:76] INFO Model checkpoint: ./outputs/crossval/foa/salsa/seld_test/models/best/epoch=049-valSeld=0.320-valER=0.521-valF1=0.630-valLE=16.270-valLR=0.701.ckpt
+inference.py[line:81] INFO Submission dir: ./outputs/crossval/foa/salsa/seld_test/outputs/submissions/original/foa_val
+inference.py[line:86] INFO Inference directory: ./outputs/crossval/foa/salsa/seld_test/outputs/predictions/original/foa_val
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split val is 100
+datamodule.py[line:140] INFO Setup inference stage in datamodule
+datamodule.py[line:141] INFO In datamodule: test batch size = 1
+builder_utils.py[line:62] INFO Finish loading model PannResNet22.
+decoders.py[line:121] INFO Map decoder type: bipeepholelstm
+builder_utils.py[line:62] INFO Finish loading model SeldDecoder.
+interfaces.py[line:59] INFO Initialize lightning model.
+learning_utils.py[line:85] INFO Start initiating trainer!
+learning_utils.py[line:88] INFO Finish initiating trainer.
+learning_utils.py[line:91] INFO Start training...
+learning_utils.py[line:101] INFO Start testing ...
+seld_models.py[line:122] INFO Number of test files: 100
+seld_models.py[line:135] INFO Epoch 0 - Test - SELD: 0.3200 - SED ER: 0.5206 - F1: 0.6297 - DOA LE: 16.2695 - LR: 0.7011
+learning_utils.py[line:105] INFO Finish testing!
+learning_utils.py[line:108] INFO Total testing time: 00:00:38 s
+learning_utils.py[line:95] INFO Finish training!
+learning_utils.py[line:98] INFO Total training time: 00:02:30 s
+evaluate.py[line:82] INFO 2021 SELD metrics: SELD error: 0.320 - SED ER: 0.521 - SED F1: 0.630 - DOA LE: 16.270 - DOA LR: 0.701
+experiments_utils.py[line:182] INFO **********************************************************
+experiments_utils.py[line:183] INFO ****** Start new experiment ******************************
+experiments_utils.py[line:184] INFO **********************************************************
+
+experiments_utils.py[line:185] INFO Timestamp: 2022-06-12-07-03-28
+experiments_utils.py[line:186] INFO Log file is created in ./outputs/crossval/foa/salsa/seld_test/logs.
+experiments_utils.py[line:54] INFO Finish parsing config file: ./experiments/configs/seld.yml.
+inference.py[line:46] INFO Inference for split : test in split meta original
+inference.py[line:76] INFO Model checkpoint: ./outputs/crossval/foa/salsa/seld_test/models/best/epoch=049-valSeld=0.320-valER=0.521-valF1=0.630-valLE=16.270-valLR=0.701.ckpt
+inference.py[line:81] INFO Submission dir: ./outputs/crossval/foa/salsa/seld_test/outputs/submissions/original/foa_test
+inference.py[line:86] INFO Inference directory: ./outputs/crossval/foa/salsa/seld_test/outputs/predictions/original/foa_test
+database.py[line:73] INFO Load feature from dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa.
+database.py[line:75] INFO train_chunk_len = 640, train_chunk_hop_len = 40
+database.py[line:77] INFO test_chunk_len = 4800, test_chunk_hop_len = 4808
+datamodule.py[line:32] INFO Create DataModule using train val split at dataset/meta/dcase2021/original.
+database.py[line:145] INFO Number of files in split test is 100
+datamodule.py[line:140] INFO Setup inference stage in datamodule
+datamodule.py[line:141] INFO In datamodule: test batch size = 1
+builder_utils.py[line:62] INFO Finish loading model PannResNet22.
+decoders.py[line:121] INFO Map decoder type: bipeepholelstm
+builder_utils.py[line:62] INFO Finish loading model SeldDecoder.
+interfaces.py[line:59] INFO Initialize lightning model.
+learning_utils.py[line:85] INFO Start initiating trainer!
+learning_utils.py[line:88] INFO Finish initiating trainer.
+learning_utils.py[line:91] INFO Start training...
+learning_utils.py[line:101] INFO Start testing ...
+seld_models.py[line:122] INFO Number of test files: 100
+seld_models.py[line:135] INFO Epoch 0 - Test - SELD: 0.3331 - SED ER: 0.5381 - F1: 0.6143 - DOA LE: 15.4216 - LR: 0.6773
+learning_utils.py[line:105] INFO Finish testing!
+learning_utils.py[line:108] INFO Total testing time: 00:00:38 s
+learning_utils.py[line:95] INFO Finish training!
+learning_utils.py[line:98] INFO Total training time: 00:02:25 s
+evaluate.py[line:82] INFO 2021 SELD metrics: SELD error: 0.333 - SED ER: 0.538 - SED F1: 0.614 - DOA LE: 15.422 - DOA LR: 0.677

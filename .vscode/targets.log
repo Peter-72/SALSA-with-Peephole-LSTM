@@ -1,0 +1,372 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun 12 23:37:34 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# environment
+CUDA_PATH_V11_6 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 54)
+IS_EVAL_SPLIT = False
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/GUC/Semester-8/SALSA-with-Peephole-LSTM
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 33)
+GPU_NUM = 0  
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;
+# environment
+ONEDRIVE = C:\Users\Peter72\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\Peter72\AppData\Local\Temp
+# environment
+CUDA_PATH_V11_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0
+# makefile (from 'Makefile', line 32)
+RESUME = False
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-513a6c10-a55d-4a90-98b3-975fb687b7c1-sock
+# environment
+VSCODE_CWD = C:\Users\Peter72\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\mingw64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.1.1\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Peter72\miniconda3;C:\Users\Peter72\miniconda3\Library\mingw-w64\bin;C:\Users\Peter72\miniconda3\Library\usr\bin;C:\Users\Peter72\miniconda3\Library\bin;C:\Users\Peter72\miniconda3\Scripts;C:\Users\Peter72\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Peter72\AppData\Local\Programs\Python\Python38\;C:\Users\Peter72\AppData\Local\Microsoft\WindowsApps;C:\Users\Peter72\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;C:\Users\Peter72\AppData\Roaming\npm;C:\Users\Peter72\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\mingw64\bin;D:\GUC\Semester-8\SALSA;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132930689073868663
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Peter72
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15900_LKYXDDRAYFXEQVPP
+# makefile (from 'Makefile', line 2)
+FEATURE_CONFIG = ./dataset/configs/tnsse2021_feature_config.yml
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = PETER72
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Peter72
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 20)
+SALSA_LITE_CONFIG = ./dataset/configs/tnsse2021_salsa_lite_feature_config.yml
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Peter72\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\PETER72
+# environment
+ONEDRIVECONSUMER = C:\Users\Peter72\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = PETER72
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 52)
+OUTPUT_DIR = ./outputs/crossval/foa/salsa/seld_test/outputs/submissions/original/foa_test
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'Makefile', line 53)
+GT_ROOT_DIR = ./dataset/data
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 4.2.1
+# environment
+__PSLOCKDOWNPOLICY = 0
+# makefile (from 'Makefile', line 21)
+SALSA_LITE_FEATURE_TYPE = salsa_lite  
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+JD2_HOME = C:\Users\Peter72\AppData\Local\JDownloader 2.0
+# environment
+LOCALAPPDATA = C:\Users\Peter72\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 31)
+EXP_SUFFIX = _test   
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b267449effd451f5e7e089f766d0beca-1.68.0-main-sock
+# environment
+PYTHONPATH = D:\GUC\Semester-8\SALSA
+# environment
+HOMEPATH = \Users\Peter72
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# makefile (from 'Makefile', line 12)
+SALSA_CONFIG = ./dataset/configs/tnsse2021_salsa_feature_config.yml
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Peter72\AppData\Roaming
+# environment
+TEMP = C:\Users\Peter72\AppData\Local\Temp
+# makefile (from 'Makefile', line 3)
+FEATURE_TYPE = linspeciv
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'Makefile', line 30)
+OUTPUT = ./outputs   
+# environment
+NVCUDASAMPLES11_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 29)
+CONFIG_DIR = ./experiments/configs
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# default
+.RECIPEPREFIX := 
+# makefile
+.DEFAULT_GOAL := feature
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 15900
+# environment
+USERDOMAIN_ROAMINGPROFILE = PETER72
+# variable set hash-table stats:
+# Load=120/1024=12%, Rehash=0, Collisions=19/141=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/GUC/Semester-8/SALSA-with-Peephole-LSTM, mtime 1655069854): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.phony: feature salsa salsa-lite train-salsa inference-salsa train-salsa-lite inference-salsa-lite evaluate
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+train-salsa-lite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+	PYTHONPATH=$(shell pwd) CUDA_VISIBLE_DEVICES="${GPU_NUM}" python experiments/train.py --exp_config="${CONFIG_DIR}/seld_salsa_lite.yml" --exp_group_dir=$(OUTPUT) --exp_suffix=$(EXP_SUFFIX) --resume=$(RESUME)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 07:41:40
+#  File has been updated.
+#  Successfully updated.
+
+evaluate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	PYTHONPATH=$(shell pwd) python experiments/evaluate.py  --output_dir=$(OUTPUT_DIR) --gt_meta_root_dir=$(GT_ROOT_DIR) --is_eval_split=$(IS_EVAL_SPLIT)
+
+salsa:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	PYTHONPATH=$(shell pwd) python dataset/salsa_feature_extraction.py --data_config=$(SALSA_CONFIG)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+feature:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	PYTHONPATH=$(shell pwd) python dataset/feature_extraction.py --data_config=$(FEATURE_CONFIG) \
+	--feature_type=$(FEATURE_TYPE)
+
+salsa-lite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	PYTHONPATH=$(shell pwd) python dataset/salsa_lite_feature_extraction.py --data_config=$(SALSA_LITE_CONFIG) --feature_type=$(SALSA_LITE_FEATURE_TYPE)
+
+inference-salsa:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	PYTHONPATH=$(shell pwd) CUDA_VISIBLE_DEVICES="${GPU_NUM}" python experiments/inference.py --exp_config="${CONFIG_DIR}/seld.yml" --exp_group_dir=$(OUTPUT) --exp_suffix=$(EXP_SUFFIX)
+
+train-salsa:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	PYTHONPATH=$(shell pwd) CUDA_VISIBLE_DEVICES="${GPU_NUM}" python experiments/train.py --exp_config="${CONFIG_DIR}/seld.yml" --exp_group_dir=$(OUTPUT) --exp_suffix=$(EXP_SUFFIX) --resume=$(RESUME)
+
+inference-salsa-lite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	PYTHONPATH=$(shell pwd) CUDA_VISIBLE_DEVICES="${GPU_NUM}" python experiments/inference.py --exp_config="${CONFIG_DIR}/seld_salsa_lite.yml" --exp_group_dir=$(OUTPUT) --exp_suffix=$(EXP_SUFFIX)
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=1/46=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 261 B / avg = 9 B
+# current buf: size = 8162 B / used = 261 B / count = 27 / avg = 9 B
+
+# strcache performance: lookups = 61 / hit rate = 55%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=1/61=2%
+# Finished Make data base on Sun Jun 12 23:37:34 2022
+
+ 

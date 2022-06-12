@@ -1,0 +1,59 @@
+data:
+  audio_format: foa
+  fs: 24000
+  hop_len: 300
+  label_rate: 10
+  n_classes: 12
+  n_fft: 512
+  n_mels: 200
+  output_format: reg_xyz
+  test_chunk_hop_len_s: 60.1
+  test_chunk_len_s: 60.0
+  train_chunk_hop_len_s: 0.5
+  train_chunk_len_s: 8
+  train_fraction: 1.0
+  val_fraction: 1.0
+doa_threshold: 20
+eval_version: '2021'
+feature_root_dir: dataset/features/salsa/foa/24000fs_512nfft_300nhop_5cond_9000fmaxdoa
+feature_type: salsa
+gt_meta_root_dir: dataset/data
+mode: crossval
+model:
+  decoder:
+    decoder_size: 256
+    decoder_type: bipeepholelstm
+    freq_pool: avg
+    name: SeldDecoder
+  encoder:
+    n_input_channels: 7
+    name: PannResNet22
+name: map
+sed_threshold: 0.3
+seed: 2021
+split_meta_dir: dataset/meta/dcase2021/original
+training:
+  loss_weight:
+  - 0.3
+  - 0.7
+  lr_scheduler:
+    lrs:
+    - 0.0003
+    - 0.0003
+    - 0.0003
+    - 0.0001
+    milestones:
+    - 0.0
+    - 0.1
+    - 0.7
+    - 1.0
+    moms:
+    - 0.9
+    - 0.9
+    - 0.9
+    - 0.9
+  max_epochs: 50
+  optimizer: adam
+  train_batch_size: 16
+  val_batch_size: 32
+  val_interval: 1

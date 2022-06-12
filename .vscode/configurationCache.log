@@ -1,0 +1,1 @@
+{"buildTargets":[".phony","evaluate","feature","inference-salsa","inference-salsa-lite","salsa","salsa-lite","train-salsa","train-salsa-lite"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
